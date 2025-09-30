@@ -4,13 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!--Link bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-
+    <!--link font awesome-->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -21,6 +23,7 @@
   </head>
 
   <body>
+    <!--header with navbar-->
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
@@ -76,6 +79,7 @@
 
     <main>
       <div class="container">
+        <!--first row of the left container-->
         <div class="row">
           <div class="col-lg-8 col-md-12 col-sm-12 my-4">
             <section class="row">
@@ -84,6 +88,7 @@
                 <button class="btn btn-primary">Aggiungi Libro</button>
               </section>
             </section>
+            <!--left table-->
             <div class="row">
               <table class="table table-striped">
                 <thead>
@@ -120,6 +125,7 @@
                     <td>
                       <span class="badge text-bg-success">Disponibile</span>
                     </td>
+                    <!--text-nowrap works even if it's only in a td, but for making it prettier, it's better to put it in every td-->
                     <td class="text-center text-nowrap">
                       <span>
                         <button type="button" class="btn btn-outline-secondary">
@@ -327,6 +333,7 @@
               </table>
             </div>
           </div>
+          <!--start of the right column-->
           <div class="col-lg-4 col-md-12 col-sm-12 my-4">
             <section class="card mb-4">
               <h2 class="card-header p-2">Todo</h2>
