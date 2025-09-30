@@ -10,6 +10,14 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
@@ -83,7 +91,7 @@
                     <th class="w-50" scope="col">Titolo</th>
                     <th scope="col">Data prestito</th>
                     <th scope="col">Stato</th>
-                    <th scope="col">Azioni</th>
+                    <th class="text-center" scope="col">Azioni</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -91,7 +99,18 @@
                     <th scope="row">I pilastri della terra</th>
                     <td>-</td>
                     <td class="badge text-bg-success">Disponibile</td>
-                    <td>@mdo</td>
+                    <td class="text-center">
+                      <span>
+                        <button type="button" class="btn btn-outline-secondary">
+                          <i class="fa-solid fa-pen"></i>
+                        </button>
+                      </span>
+                      <span>
+                        <button type="button" class="btn btn-outline-secondary">
+                          <i class="fa-solid fa-trash"></i>
+                        </button>
+                      </span>
+                    </td>
                   </tr>
                   <tr>
                     <th scope="row">I promessi sposi</th>
